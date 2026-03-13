@@ -118,7 +118,9 @@ section p {
 
 .package-card img {
     width: 100%;
-    height: 20%;
+    height: auto;
+    aspect-ratio: 16/9;
+    object-fit: cover;
     border-radius: 8px;
     margin-bottom: 1rem;
 }
