@@ -173,6 +173,15 @@ footer {
     color: #b39ddb;
 }
 
+.info-item a {
+    color: plum;
+    text-decoration: none;
+}
+
+.info-item a:hover {
+    text-decoration: underline;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     header h1 {
